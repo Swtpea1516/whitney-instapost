@@ -1,20 +1,51 @@
-body {
+.top {
+    display: flex;
+   align-items: center;
+    margin-top: 19px;
+
+}
+.body {
     background-color:black;
+    width: max-content;
+   
 }
 .post{
-    height: 550px;
+    height: 650px;
     width: 300px;
     background-color: white;
     margin: auto;
 }
-.box {
-    border-radius: 8px;
-    margin: 20px;
-    display: inline-block;
+.post-container {
+    background-color: black;
+ 
+
 }
-.image-container {
-    float: right;
+
+.post-heading{
+    display: flex;
+    height: 50px;
+    align-items: center;
 }
-i{
-    color: black;
+.heading1{
+margin: 3%;
+font-size: 2rem;
 }
+.heading2{
+    width: 93%;
+    line-height: 5px;
+}
+.heading3{
+    width: 2%;
+    font-size: 2rem;
+}
+
+.icon-container {
+    display: flex;
+   justify-content: space-between;
+   width: 100%;
+
+}
+
+
+
+
