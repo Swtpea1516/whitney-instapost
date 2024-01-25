@@ -9,13 +9,18 @@
     width: max-content;
    
 }
+img {
+    padding: 0 50px 0 50px;
+}
 .post{
     height: 650px;
-    width: 300px;
+    width: 400px;
     background-color: white;
     margin: auto;
+    padding: 5px 30px 5px 30px;
 }
 .post-container {
+ 
     background-color: black;
  
 
@@ -40,6 +45,8 @@ font-size: 2rem;
 }
 
 .icon-container {
+    padding: 10px 5px 10px 0px;
+   
     display: flex;
    justify-content: space-between;
    width: 100%;
